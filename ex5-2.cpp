@@ -1,6 +1,6 @@
 #include <stdio.h>      
 int main() {
-    char operator;              //C編譯器
+    char operator;              //使用C編譯器。因為在C++裡面operator為保留字，不能使用，如果要呈現此程式碼，會需要使用代數，故才採用C編譯器
     double first, second;
     printf("Enter an operator (+,-,*,): ");
     scanf("%c", &operator);
