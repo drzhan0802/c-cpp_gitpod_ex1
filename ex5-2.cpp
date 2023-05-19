@@ -1,6 +1,6 @@
-#include <stdio.h>
+#include <stdio.h>      
 int main() {
-    char operator;
+    char operator;              //C編譯器
     double first, second;
     printf("Enter an operator (+,-,*,): ");
     scanf("%c", &operator);
